@@ -1,5 +1,6 @@
 import { PrismaClient } from "@prisma/client";
 
+// We created this Logic to not create another instance if we already have one.
 const prismaClientSingleton = () => {
   return new PrismaClient();
 };
