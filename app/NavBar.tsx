@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <div className="flex bg-slate-200 p-5 space-x-3">
       <Link href={"/"} className="mr-5">
-        Next.js
+        Call Next.js
       </Link>
       <Link href={"/users"}>Users</Link>
       {status === "authenticated" && (
